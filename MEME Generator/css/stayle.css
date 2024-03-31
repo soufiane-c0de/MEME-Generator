@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Roboto",sans-serif;
+}
+body{
+        background-color: black;
+
+}
+.container{
+    text-align: center;
+    justify-content: center;
+}
+.memeimg{
+    border: 7px solid  orange;
+    border-radius: 3px ;
+    height: 450px;
+    object-fit: cover;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    margin-top: 40px;
+    font-size: 1.6em;
+    background-color: orange;
+    color: white;
+    border-left: 8px solid rgb(58, 58, 58);
+    cursor: pointer;
+}
+.btn:hover{transition: 0.8s;
+    font-size: 1.8em;
+    border-left: 14px solid rgb(0, 0, 0);
+    background-color: rgb(156, 102, 1);
+
+}
+.tit{
+    color: orange;
+    margin: 30px;
+}
+.maidby{
+    margin: 8px;
+    color: white;
+}
